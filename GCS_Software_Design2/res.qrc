@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>mainwindow.png</file>
+        <file>Logo.png</file>
+        <file>cansatImage.png</file>
+        <file>MapView.png</file>
+        <file>temperatureGraph.png</file>
+        <file>tilt.png</file>
+        <file>altitude.png</file>
+        <file>powerconsumption.png</file>
+        <file>pressure.png</file>
+    </qresource>
+</RCC>

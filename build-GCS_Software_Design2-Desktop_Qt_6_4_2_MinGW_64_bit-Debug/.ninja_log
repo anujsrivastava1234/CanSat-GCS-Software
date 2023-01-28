@@ -1,0 +1,23 @@
+# ninja log v5
+14	492	6966233761841166	GCS_Software_Design2_autogen/timestamp	2791852eba8997d
+14	492	6966233761841166	GCS_Software_Design2_autogen/mocs_compilation.cpp	2791852eba8997d
+14	492	6966233761841166	C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/GCS_Software_Design2_autogen/timestamp	2791852eba8997d
+14	492	6966233761841166	C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/GCS_Software_Design2_autogen/mocs_compilation.cpp	2791852eba8997d
+2830	12379	6966230272947584	CMakeFiles/GCS_Software_Design2.dir/GCS_Software_Design2_autogen/mocs_compilation.cpp.obj	e24a80c4204d0a27
+2845	12121	6966230270477941	CMakeFiles/GCS_Software_Design2.dir/main.cpp.obj	5240ea5536e7935a
+520	6580	6966233822685000	CMakeFiles/GCS_Software_Design2.dir/mainwindow.cpp.obj	1447fb08fd50879e
+6580	6904	6966233825929544	GCS_Software_Design2.exe	6cf31439b71256a2
+2515	2737	6966108856108643	GCS_Software_Design2_autogen/EWIEGA46WW/qrc_res.cpp	79da6a1342c0259f
+15	23	0	clean	577b940aee94fbd7
+2515	2737	6966108856108643	C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/GCS_Software_Design2_autogen/EWIEGA46WW/qrc_res.cpp	79da6a1342c0259f
+2835	13910	6966230288313419	CMakeFiles/GCS_Software_Design2.dir/GCS_Software_Design2_autogen/EWIEGA46WW/qrc_res.cpp.obj	bfb1036fd3e3ab67
+0	15	0	CMakeFiles/clean.additional	baedbe210acaa455
+29	494	6966243157072596	GCS_Software_Design2_autogen/timestamp	2791852eba8997d
+29	494	6966243157072596	GCS_Software_Design2_autogen/mocs_compilation.cpp	2791852eba8997d
+29	494	6966243157072596	C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/GCS_Software_Design2_autogen/timestamp	2791852eba8997d
+29	494	6966243157072596	C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/GCS_Software_Design2_autogen/mocs_compilation.cpp	2791852eba8997d
+531	889	6966243160971827	GCS_Software_Design2_autogen/EWIEGA46WW/qrc_res.cpp	79da6a1342c0259f
+531	889	6966243160971827	C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/GCS_Software_Design2_autogen/EWIEGA46WW/qrc_res.cpp	79da6a1342c0259f
+892	7546	6966243227552759	CMakeFiles/GCS_Software_Design2.dir/mainwindow.cpp.obj	1447fb08fd50879e
+890	11267	6966243264758696	CMakeFiles/GCS_Software_Design2.dir/GCS_Software_Design2_autogen/EWIEGA46WW/qrc_res.cpp.obj	bfb1036fd3e3ab67
+11268	11683	6966243268994262	GCS_Software_Design2.exe	6cf31439b71256a2

@@ -1,0 +1,9 @@
+C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/GCS_Software_Design2.dir
+C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/install.dir
+C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/GCS_Software_Design2_autogen_timestamp_deps.dir
+C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/GCS_Software_Design2_autogen.dir

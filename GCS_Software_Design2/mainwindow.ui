@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1380</width>
+    <height>957</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ground Control Station</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/images/mainwindow.png</normaloff>:/images/mainwindow.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(40, 40, 43);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QWidget" name="widget" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>251</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>251</width>
+            <height>100</height>
+           </size>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <widget class="QFrame" name="frame">
+             <property name="styleSheet">
+              <string notr="true">image: url(:/images/Logo.png);</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_2" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>100</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>100</height>
+           </size>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_8">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_7">
+             <item>
+              <spacer name="horizontalSpacer_3">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QLabel" name="label">
+               <property name="minimumSize">
+                <size>
+                 <width>400</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 700 20pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+               </property>
+               <property name="text">
+                <string>Cansat Ground Control Station</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignHCenter|Qt::AlignTop</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_4">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_3" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>286</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>100</height>
+           </size>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_11">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <item>
+              <widget class="QLabel" name="label_3">
+               <property name="styleSheet">
+                <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+               </property>
+               <property name="text">
+                <string>2023-01-28   00:00:00  UTC</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_4">
+               <property name="styleSheet">
+                <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+               </property>
+               <property name="text">
+                <string>28.3669° N, 77.5413° E</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_5">
+               <property name="styleSheet">
+                <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+               </property>
+               <property name="text">
+                <string>Team Avinya</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QWidget" name="widget_4" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>240</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>240</width>
+              <height>265</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-style:solid;
+border-width:1px;
+border-color: rgb(45, 45, 45);</string>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_10">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_5">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_9">
+                 <item>
+                  <widget class="QLabel" name="label_2">
+                   <property name="minimumSize">
+                    <size>
+                     <width>20</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>20</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">border-color: rgb(0, 0, 0);
+background-color: rgb(64, 222, 122);
+border-style:solid;
+border-width:1px;
+border-radius:10px;</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <spacer name="horizontalSpacer_5">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <widget class="QFrame" name="frame_3">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>213</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">border-color: rgb(255, 255, 255);
+image: url(:/images/cansatImage.png);</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_5" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>458</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>240</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color: rgb(0, 0, 0);
+border-style : solid;
+border-width:1px;</string>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_15">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_4">
+               <item>
+                <widget class="QLabel" name="label_6">
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string>sensorData1.csv</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_7">
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string>sensorData2.csv</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_8">
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string>sensorData3.csv</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_10">
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string>sensorData4.csv</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_9">
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string>sensorData5.csv</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_11">
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string>TemperaturesensorData1.csv</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_12">
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string>PressureSensorData1.csv</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_13">
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string>TiltsensorData1.csv</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_14">
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string>sensorData1.csv</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_15">
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string>sensorData1.csv</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_16">
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string>sensorData1.csv</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_17">
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string>sensorData1.csv</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QWidget" name="widget_6" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>998</width>
+              <height>454</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">image: url(:/images/MapView.png);</string>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_6"/>
+           </widget>
+          </item>
+          <item>
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="1" column="1">
+             <widget class="QWidget" name="widget_10" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>100</height>
+               </size>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_14">
+               <item>
+                <widget class="QFrame" name="frame_6">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_19">
+                  <item>
+                   <layout class="QGridLayout" name="gridLayout_5">
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="label_36">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>Max. Pressure</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QLabel" name="label_37">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>936.39 hPa</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="0">
+                     <widget class="QLabel" name="label_38">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>Avg. Pressure</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="1">
+                     <widget class="QLabel" name="label_39">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>957.735 hPa</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="0">
+                     <widget class="QLabel" name="label_40">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>Min. Pressure</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="1">
+                     <widget class="QLabel" name="label_41">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>1001.895 hPa</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="pressure_frame">
+                 <property name="minimumSize">
+                  <size>
+                   <width>360</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">image: url(:/images/pressure.png);</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QWidget" name="widget_8" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>100</height>
+               </size>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_12">
+               <item>
+                <widget class="QFrame" name="frame_5">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_18">
+                  <item>
+                   <layout class="QGridLayout" name="gridLayout_4">
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="label_30">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>Max. Temperature</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QLabel" name="label_31">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;30&lt;span style=&quot; vertical-align:super;&quot;&gt;0 &lt;/span&gt;C&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="0">
+                     <widget class="QLabel" name="label_32">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>Avg. Temperature</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="1">
+                     <widget class="QLabel" name="label_33">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;25&lt;span style=&quot; vertical-align:super;&quot;&gt;0 &lt;/span&gt;C&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="0">
+                     <widget class="QLabel" name="label_34">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>Min. Temperature</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="1">
+                     <widget class="QLabel" name="label_35">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;2&lt;span style=&quot; vertical-align:super;&quot;&gt;0 &lt;/span&gt;C&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="alt_frame">
+                 <property name="minimumSize">
+                  <size>
+                   <width>360</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">image: url(:/images/temperatureGraph.png);</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QWidget" name="widget_9" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>160</height>
+               </size>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_13">
+               <item>
+                <widget class="QFrame" name="frame_4">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_17">
+                  <item>
+                   <layout class="QGridLayout" name="gridLayout_3">
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="label_24">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>Max Tilt</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QLabel" name="label_25">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;55&lt;span style=&quot; vertical-align:super;&quot;&gt;0&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="0">
+                     <widget class="QLabel" name="label_26">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>Avg Tilt</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="1">
+                     <widget class="QLabel" name="label_27">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;25&lt;span style=&quot; vertical-align:super;&quot;&gt;0&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="0">
+                     <widget class="QLabel" name="label_28">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>Min Tilt</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="1">
+                     <widget class="QLabel" name="label_29">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;0&lt;span style=&quot; vertical-align:super;&quot;&gt;0&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="tilt_frame">
+                 <property name="minimumSize">
+                  <size>
+                   <width>360</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">image: url(:/images/tilt.png);</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QWidget" name="widget_7" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>160</height>
+               </size>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_5">
+               <item>
+                <widget class="QFrame" name="frame_2">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_16">
+                  <item>
+                   <layout class="QGridLayout" name="gridLayout_2">
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="label_18">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>Max.  Altitude</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QLabel" name="label_19">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>700 m</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="0">
+                     <widget class="QLabel" name="label_20">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>Avg.  Altitude</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="1">
+                     <widget class="QLabel" name="label_21">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>500 m</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="0">
+                     <widget class="QLabel" name="label_22">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>Min.  Altitude</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="1">
+                     <widget class="QLabel" name="label_23">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>100 m</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="temp_frame">
+                 <property name="minimumSize">
+                  <size>
+                   <width>360</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">image: url(:/images/altitude.png);</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1380</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuOpen">
+    <property name="title">
+     <string>Open</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuOpen"/>
+   <addaction name="menuHelp"/>
+   <addaction name="menuAbout"/>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

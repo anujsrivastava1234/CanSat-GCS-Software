@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "GCS_Software_Design2_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "GCS_Software_Design2_autogen::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "GCS_Software_Design2_autogen",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/GCS_Software_Design2_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/GCS_Software_Design2_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/GCS_Software_Design2_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

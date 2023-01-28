@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/GCS_Software_Design2_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/anuj1/Documents/Cansat/GCS_Software_Design2",
+	"CMAKE_SOURCE_DIR" : "C:/Users/anuj1/Documents/Cansat/GCS_Software_Design2",
+	"INCLUDE_DIR" : "C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/GCS_Software_Design2_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/anuj1/Documents/Cansat/GCS_Software_Design2/powerconsumption.png",
+		"C:/Users/anuj1/Documents/Cansat/GCS_Software_Design2/temperatureGraph.png",
+		"C:/Users/anuj1/Documents/Cansat/GCS_Software_Design2/pressure.png",
+		"C:/Users/anuj1/Documents/Cansat/GCS_Software_Design2/tilt.png",
+		"C:/Users/anuj1/Documents/Cansat/GCS_Software_Design2/mainwindow.png",
+		"C:/Users/anuj1/Documents/Cansat/GCS_Software_Design2/cansatImage.png",
+		"C:/Users/anuj1/Documents/Cansat/GCS_Software_Design2/MapView.png",
+		"C:/Users/anuj1/Documents/Cansat/GCS_Software_Design2/altitude.png",
+		"C:/Users/anuj1/Documents/Cansat/GCS_Software_Design2/Logo.png"
+	],
+	"LOCK_FILE" : "C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/GCS_Software_Design2_autogen.dir/AutoRcc_res_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "res" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_res.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.4.2/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/anuj1/Documents/Cansat/build-GCS_Software_Design2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/GCS_Software_Design2_autogen.dir/AutoRcc_res_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/anuj1/Documents/Cansat/GCS_Software_Design2/res.qrc",
+	"VERBOSITY" : 0
+}
